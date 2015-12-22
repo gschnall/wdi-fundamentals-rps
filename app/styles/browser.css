@@ -1,0 +1,72 @@
+.player_image{
+  height: 200px;
+  width:120px;
+}
+.computer_image{
+  width:200px;
+}
+
+.player_move{
+  border-style:groove;
+  border-color:blue;
+  border-width:medium;
+  height:140px;
+  width:180px;
+}
+.computer_move{
+  border-style:groove;
+  border-color:red;
+  border-width:medium;
+  height:140px;
+  width:180px;
+}
+
+h3 {
+   color: darkblue; 
+}
+
+input {
+    border-color:darkblue;
+    border-style:outset;
+    border-width:medium;
+    width:200px;
+    height:34px;
+    cursor: pointer;
+    font-size:19px;
+    color:darkblue;
+}
+
+input:active{
+    border-color:gold;
+}
+
+select {
+    font-size:20px;
+    color:darkblue;
+    width:200px;
+    height:34px;
+    cursor: pointer;
+}
+
+#console {
+    max-width: 618px;
+    background-color:lightgrey;    
+    border-color:black;
+    border-style: solid;
+    border-width:medium;
+    padding-left:12px;
+    padding-top:1px;
+    padding-bottom:15px;
+}
+
+#player_wins {
+    color:darkblue;
+    font-size: 18px;
+    font-weight: bolder
+}
+
+#computer_wins {
+    color:darkred;
+    font-size: 18px;
+    font-weight: bolder
+}
